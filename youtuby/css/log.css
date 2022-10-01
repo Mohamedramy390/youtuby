@@ -1,0 +1,27 @@
+.side-list{
+    background-color: #fff;
+    height: 566px;
+    margin-top: 15px;
+}
+.list-group-item.active{
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+}
+.card-body{
+    min-width: 0;
+}
+.close-mark{
+    margin-right: 10px;
+    margin-top: 8px;
+    color: lightgray;
+    cursor: pointer;
+}
+.card{
+    display:block;
+    max-width: 100%;
+}
+@media(max-width:766px){
+    .card .card-icons img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+#filter{
+    cursor: pointer;
+}
+.search-header .filter-col{
+    display: none;
+}
+input:checked+span{
+    color: #bf40bf;
+}
+
+@media(max-width:766px){
+    .card .card-icons img{
+        width: 100%;
+    }
+}
